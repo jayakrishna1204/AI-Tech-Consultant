@@ -24,7 +24,7 @@ From the project root, create and activate a virtual environment if you have not
 
 On Windows PowerShell:
 
-## Powershell
+## Powershell Commands
 
 ```
 python -m venv .venv
@@ -46,7 +46,7 @@ Open separate terminals from the project root.
 
 ### 1. Knowledge Brain API
 
-## Powershell
+## Powershell 1st Terminal
 
 ```
 uvicorn task1_knowledge_brain.main:app --reload
@@ -56,7 +56,7 @@ API documentation: `http://127.0.0.1:8000/docs`
 
 ### 2. Knowledge Brain UI
 
-## Powershell
+## Powershell 2nd Terminal
 
 ```
 python -m streamlit run task1_knowledge_brain/ui.py
@@ -64,7 +64,7 @@ python -m streamlit run task1_knowledge_brain/ui.py
 
 ### 3. Inbox Agent
 
-## Powershell
+## Powershell 3rd Terminal
 
 ```
 python -m streamlit run task2_inbox_agent/main.py
@@ -72,7 +72,7 @@ python -m streamlit run task2_inbox_agent/main.py
 
 ### 4. Meeting to Scope
 
-## Powershell
+## Powershell 4th Terminal
 
 ```
 python -m streamlit run task3_meeting_scope/main.py
